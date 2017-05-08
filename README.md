@@ -12,6 +12,10 @@ git clone repo then at the project root:
 
 `npm install`
 
+&
+
+`npm start`
+
 ## Tests
 
 TBD

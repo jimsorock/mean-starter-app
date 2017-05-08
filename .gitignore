@@ -42,3 +42,6 @@ public/libs
 
 # Environment
 .env
+
+# dist
+public/dist

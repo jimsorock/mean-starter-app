@@ -16,7 +16,7 @@ app.use('/public', express.static(path.join(__dirname, 'public'), {fallthrough: 
 // Handle Static File 404
 app.use((err, req, res, next) => {
   if (err) {
-    console.error
+    console.error(err)
   }
   res.sendStatus(404)
 })
